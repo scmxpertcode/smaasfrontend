@@ -1,0 +1,102 @@
+[{
+	"goods": [{
+			"goods_Item": "Fruits",
+			"goods_Id": "SCM0001_G0001",
+			"control_Params": [
+				"Temperature",
+				"Moisture",
+				"Shock"
+			]
+		},
+		{
+			"goods_Item": "Pharma Medicines",
+			"goods_Id": "SCM0001_G0002",
+			"control_Params": [
+				"Temperature",
+				"Moisture"
+			]
+		}
+	],
+	"route": [{
+			"from": "Philadelphia",
+			"std_Duration": "3 Days",
+			"to": "Pittsburgh",
+			"route_Id": "20001",
+			"default_Events": [
+				"E0001",
+				"E0002"
+			],
+			"primary_Mode_Of_Transport": "Road",
+			"default_Business_Partners": [
+				"BP0001",
+				"BP0002"
+			]
+		},
+		{
+			"from": "San Jose",
+			"std_Duration": "3 Days",
+			"to": "New York",
+			"route_Id": "20002",
+			"default_Events": [
+				"E0001",
+				"E0002"
+			],
+			"primary_Mode_Of_Transport": "Road",
+			"default_Business_Partners": [
+				"BP0001",
+				"BP0002"
+			]
+		}
+	],
+	"business_Partner_Id": [
+		"BP0001",
+		"BP0002"
+	],
+	"bussinesPartnersDetails": [{
+			"events": [{
+					"event_Id": "E0001",
+					"event_Status": "Unload from Truck"
+				},
+				{
+					"event_Id": "E0002",
+					"event_Status": "Inspection"
+				},
+				{
+					"event_Id": "E0003",
+					"event_Status": "Loading to flight"
+				}
+			],
+			"company_Name": "SpiceJet Transport Ltd.",
+			"bp_Id": "BP0002"
+		},
+		{
+			"events": [{
+					"event_Id": "E0001",
+					"event_Status": "Unload from Truck"
+				},
+				{
+					"event_Id": "E0002",
+					"event_Status": "Inspection"
+				},
+				{
+					"event_Id": "E0003",
+					"event_Status": "Loading to flight"
+				}
+			],
+			"company_Name": "SpiceJet Transport Ltd.",
+			"bp_Id": "BP0002"
+		}
+	],
+	"device_Id": [
+		"046046044234",
+		"037089741"
+	],
+	"typeOfReferences": [
+		"Purchase Order",
+		"Sales Order",
+		"Delivery Number",
+		"Bill Of Landing Number",
+		"Pallet Number",
+		"Other Tracking Number"
+	]
+}]

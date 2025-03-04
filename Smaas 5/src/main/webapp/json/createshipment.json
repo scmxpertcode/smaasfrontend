@@ -1,0 +1,20 @@
+[{
+	"customerId": "SCM0002",
+	"shipment_Number": "T00000008",
+	"typeOfReference": "Place Order",
+	"comments": [
+		"Test 123"
+	],
+	"routeId": "20003",
+	"routeFrom": "Haifa",
+	"routeTo": "Moldova",
+	"goodsId": "SCM0001_G0001",
+	"goodsType": "Fruits",
+	"deviceId": "046046044234",
+	"estimatedDeliveryDate": "2019-05-05T13:21:55.000Z",
+	"parnterFrom": "BP0002",
+	"partnerTo": "BP0003",
+	"eventName": "Intial Inspection",
+	"dateAndTime": "2019-05-02T13:21:55.000Z"
+
+}]

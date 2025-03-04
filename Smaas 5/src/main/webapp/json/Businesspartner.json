@@ -1,0 +1,277 @@
+[{
+	"_id": {
+		"$oid": "5c9b22a6b5302d58906556b7"
+	},
+	"BP_Id": "0002",
+	"BP_Type": "Transport",
+	"BP_Role": "Warehouse Manager",
+	"Company_Name": "Verizon Inc.",
+	"Name1": "",
+	"Name2": "",
+	"Device_Ids": ["1711210206", "046046044235", "046046044237"],
+	"Escalation": "0001",
+	"Time_Zone": "UTC",
+	"Addresses": [{
+		"Type": "Primary",
+		"Address1": "Lancaster Ave",
+		"Address2": "",
+		"Address3": "",
+		"City": "Malvern",
+		"State": "PA",
+		"Country": "US",
+		"Zip": "",
+		"Longitude": "10003i333",
+		"Latitude": "10003i334"
+	}, {
+		"Type": "Secondary",
+		"Address1": "Valley Stream Ave ",
+		"Address2": "",
+		"Address3": "",
+		"City": "Malvern",
+		"State": "PA",
+		"Country": "US",
+		"Zip": "",
+		"Longitude": "10003i333",
+		"Latitude": "10003i334"
+	}],
+	"Contact": [{
+		"Type": "Primary",
+		"Contact_Name": "Amar",
+		"Phone": [{
+			"Type": "Office",
+			"Number": "001 2933394456"
+		}, {
+			"Type": "Cell",
+			"Number": "001 2293390127"
+		}],
+		"Email_Id": "amar@gmail.com"
+	}, {
+		"Type": "Secondary",
+		"Contact_Name": "Akbar",
+		"Phone": [{
+			"Type": "Office",
+			"Number": "001 408388938"
+		}, {
+			"Type": "Cell",
+			"Number": "001 408388939"
+		}],
+		"Email_Id": "Akbar@exports.com"
+	}],
+	"Events": [{
+		"Event_Id": "E0001",
+		"Event_Status": "Intial Shipment"
+	}, {
+		"Event_Id": "E0002",
+		"Event_Status": "Loaded Truck"
+	}]
+}, {
+	"_id": {
+		"$oid": "5c9c73d60f883c261007dfb1"
+	},
+	"BP_Id": "0003",
+	"BP_Type": "Transport",
+	"BP_Role": "Warehouse Manager",
+	"Company_Name": "Exafluence Inc.",
+	"Name1": "",
+	"Name2": "",
+	"Device_Ids": ["1711210206", "046046044235", "046046044237"],
+	"Escalation": "0004",
+	"Time_Zone": "UTC",
+	"Addresses": [{
+		"Type": "Primary",
+		"Address1": "independence way",
+		"Address2": "",
+		"Address3": "",
+		"City": "Princeton",
+		"State": "NJ",
+		"Country": "US",
+		"Zip": "08540",
+		"Longitude": "10003i333",
+		"Latitude": "10003i334"
+	}, {
+		"Type": "Secondary",
+		"Address1": "Exafluence Pvt Ltd",
+		"Address2": "",
+		"Address3": "",
+		"City": "Tirupati",
+		"State": "AP",
+		"Country": "IND",
+		"Zip": "",
+		"Longitude": "10003i333",
+		"Latitude": "10003i334"
+	}],
+	"Contact": [{
+		"Type": "Primary",
+		"Contact_Name": "Ravi Dharmavaram",
+		"Phone": [{
+			"Type": "Office",
+			"Number": "001 2933394456"
+		}, {
+			"Type": "Cell",
+			"Number": "001 2293390127"
+		}],
+		"Email_Id": "ravi@gmail.com"
+	}, {
+		"Type": "Secondary",
+		"Contact_Name": "Sreenivas",
+		"Phone": [{
+			"Type": "Office",
+			"Number": "0877 36558445"
+		}, {
+			"Type": "Cell",
+			"Number": "91 9849 8676 04"
+		}],
+		"Email_Id": "sreenivas@exafluence.com"
+	}],
+	"Events": [{
+		"Event_Id": "E0001",
+		"Event_Status": "Intial Shipment"
+	}, {
+		"Event_Id": "E0002",
+		"Event_Status": "Loaded Truck"
+	}, {
+		"Event_Id": "E0003",
+		"Event_Status": "In Transport"
+	}, {
+		"Event_Id": "E0004",
+		"Event_Status": "Delivered"
+	}]
+}, {
+	"_id": {
+		"$oid": "5c9c750d0f883c261007e041"
+	},
+	"BP_Id": "0004",
+	"BP_Type": "Transport",
+	"BP_Role": "Warehouse Manager",
+	"Company_Name": "Pfizer",
+	"Name1": "",
+	"Name2": "",
+	"Device_Ids": ["1711210206", "046046044235", "046046044237"],
+	"Escalation": "0005",
+	"Time_Zone": "UTC",
+	"Addresses": [{
+		"Type": "Primary",
+		"Address1": "1 Yukon Court",
+		"Address2": "",
+		"Address3": "",
+		"City": "Newark",
+		"State": "NJ",
+		"Country": "US",
+		"Zip": "07103",
+		"Longitude": "10003i333",
+		"Latitude": "10003i334"
+	}, {
+		"Type": "Secondary",
+		"Address1": "Building Three",
+		"Address2": "",
+		"Address3": "",
+		"City": "Newark",
+		"State": "NJ",
+		"Country": "US",
+		"Zip": "07114",
+		"Longitude": "10003i333",
+		"Latitude": "10003i334"
+	}],
+	"Contact": [{
+		"Type": "Primary",
+		"Contact_Name": "Amar",
+		"Phone": [{
+			"Type": "Office",
+			"Number": "001 2933394456"
+		}, {
+			"Type": "Cell",
+			"Number": "001 2293390127"
+		}],
+		"Email_Id": "amar@gmail.com"
+	}, {
+		"Type": "Secondary",
+		"Contact_Name": "Akbar",
+		"Phone": [{
+			"Type": "Office",
+			"Number": "001 408388938"
+		}, {
+			"Type": "Cell",
+			"Number": "001 408388939"
+		}],
+		"Email_Id": "Akbar@exports.com"
+	}],
+	"Events": [{
+		"Event_Id": "E0001",
+		"Event_Status": "Intial Shipment"
+	}, {
+		"Event_Id": "E0002",
+		"Event_Status": "Loaded Truck"
+	}, {
+		"Event_Id": "E0003",
+		"Event_Status": "IN Transport"
+	}]
+}, {
+	"_id": {
+		"$oid": "5c9c796a0f883c261007e109"
+	},
+	"BP_Id": "0006",
+	"BP_Type": "Transport",
+	"BP_Role": "Warehouse Manager",
+	"Company_Name": "Hexaware Technologies",
+	"Name1": "",
+	"Name2": "",
+	"Device_Ids": ["1711210206", "046046044235", "046046044237"],
+	"Escalation": "0007",
+	"Time_Zone": "UTC",
+	"Addresses": [{
+		"Type": "Primary",
+		"Address1": "82 Main Street",
+		"Address2": "",
+		"Address3": "",
+		"City": "Hornell",
+		"State": "NY",
+		"Country": "US",
+		"Zip": "",
+		"Longitude": "10003i333",
+		"Latitude": "10003i334"
+	}, {
+		"Type": "Secondary",
+		"Address1": "Valley Stream Ave ",
+		"Address2": "",
+		"Address3": "",
+		"City": "chennai",
+		"State": "TN",
+		"Country": "IND",
+		"Zip": "",
+		"Longitude": "10003i333",
+		"Latitude": "10003i334"
+	}],
+	"Contact": [{
+		"Type": "Primary",
+		"Contact_Name": "Richard",
+		"Phone": [{
+			"Type": "Office",
+			"Number": "001 5855452221"
+		}, {
+			"Type": "Cell",
+			"Number": "001 665594442"
+		}],
+		"Email_Id": "richard@gmail.com"
+	}, {
+		"Type": "Secondary",
+		"Contact_Name": "Asar",
+		"Phone": [{
+			"Type": "Office",
+			"Number": "001 223312155"
+		}, {
+			"Type": "Cell",
+			"Number": "001 155422522"
+		}],
+		"Email_Id": "asar@hexaware.com"
+	}],
+	"Events": [{
+		"Event_Id": "E0001",
+		"Event_Status": "Intial Shipment"
+	}, {
+		"Event_Id": "E0002",
+		"Event_Status": "Loaded Truck"
+	}, {
+		"Event_Id": "E0003",
+		"Event_Status": "IN Transport"
+	}]
+}]

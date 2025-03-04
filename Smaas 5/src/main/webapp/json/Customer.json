@@ -1,0 +1,339 @@
+[{
+	"_id": {
+		"$oid": "5c9b2407b5302d58906556b8"
+	},
+	"Customer_Id": "0001",
+	"Name1": "Verizon Inc.",
+	"Name2": "Verizon",
+	"Type": "Static",
+	"External_Number": "Ex1234",
+	"Business_Partner_Id": ["0001", "0002"],
+	"Device_Id": ["1711210206", "046046044235", "046046044237", "046046044238", "046046044239"],
+	"DUNS": "",
+	"G10": "",
+	"Departments": ["Export", "Import", "Transportation"],
+	"Addresses": [{
+		"Type": "Primary",
+		"Address1": "Lancaster Ave",
+		"Address2": "",
+		"Address3": "",
+		"City": "Malvern",
+		"State": "PA",
+		"Country": "US",
+		"Zip": "",
+		"Longitude": "10003i333",
+		"Latitude": "10003i334"
+	}, {
+		"Type": "Secondary",
+		"Address1": "Valley Stream Ave ",
+		"Address2": "",
+		"Address3": "",
+		"City": "Malvern",
+		"State": "PA",
+		"Country": "US",
+		"Zip": "",
+		"Longitude": "10003i333",
+		"Latitude": "10003i334"
+	}],
+	"Contact": [{
+		"Type": "Primary",
+		"Contact_Name": "John",
+		"Phone": [{
+			"Type": "Office",
+			"Number": "001 2933394455"
+		}, {
+			"Type": "Cell",
+			"Number": "001 2293390129"
+		}],
+		"Email_Id": "John@gmail.com"
+	}, {
+		"Type": "Secondary",
+		"Contact_Name": "ASAR",
+		"Phone": [{
+			"Type": "Office",
+			"Number": "001 408388933"
+		}, {
+			"Type": "Cell",
+			"Number": "001 408388933"
+		}],
+		"Email_Id": "Asar@exports.com"
+	}],
+	"Route": [{
+		"Route_Id": "20001",
+		"From": "Philadelphia",
+		"To": "Philadelphia",
+		"Mode_Of_Transport": "Road"
+	}, {
+		"Route_Id": "20002",
+		"From": "San Jose",
+		"To": "New York",
+		"Mode_Of_Transport": "Flight"
+	}],
+	"Goods": [{
+		"Goods_Id": "SCM001_G0001",
+		"Goods_Item": "Fruits",
+		"Para1": "Temperature",
+		"Para2": "Road"
+	}, {
+		"Goods_Id": "SCM001_G0002",
+		"Goods_Item": "Pharma API",
+		"Para1": "Temperature",
+		"Para2": "Road"
+	}]
+}, {
+	"_id": {
+		"$oid": "5c9b2407b5302d58906556b9"
+	},
+	"Customer_Id": "0002",
+	"Name1": "Exafluence Inc.",
+	"Name2": "Exafluence",
+	"Type": "Static",
+	"External_Number": "Ex1122",
+	"Business_Partner_Id": ["0001", "0002"],
+	"Device_Id": ["046046044235", "046046044237"],
+	"DUNS": "",
+	"G10": "",
+	"Departments": ["Export", "Import"],
+	"Addresses": [{
+		"Type": "Primary",
+		"Address1": "Updadhyaya Nagar",
+		"Address2": "",
+		"Address3": "",
+		"City": "Tirupati",
+		"State": "AP",
+		"Country": "India",
+		"Zip": "",
+		"Longitude": "10003i333",
+		"Latitude": "10003i334"
+	}, {
+		"Type": "Secondary",
+		"Address1": "Street No 1",
+		"Address2": "",
+		"Address3": "",
+		"City": "Princeton",
+		"State": "NJ",
+		"Country": "US",
+		"Zip": "",
+		"Longitude": "10003i333",
+		"Latitude": "10003i334"
+	}],
+	"Contact": [{
+		"Type": "Primary",
+		"Contact_Name": "Sreenivas",
+		"Phone": [{
+			"Type": "Office",
+			"Number": "+91 2933394455"
+		}, {
+			"Type": "Cell",
+			"Number": "+91 2293390129"
+		}],
+		"Email_Id": "sreenivas@exafluence.co.in"
+	}, {
+		"Type": "Secondary",
+		"Contact_Name": "Ravi",
+		"Phone": [{
+			"Type": "Office",
+			"Number": "001 408388933"
+		}, {
+			"Type": "Cell",
+			"Number": "001 408388933"
+		}],
+		"Email_Id": "raviexaf"
+	}],
+	"Route": [{
+		"Route_Id": "20001",
+		"From": "Philadelphia",
+		"To": "Philadelphia",
+		"Mode_Of_Transport": "Road"
+	}, {
+		"Route_Id": "20002",
+		"From": "San Jose",
+		"To": "New York",
+		"Mode_Of_Transport": "Flight"
+	}],
+	"Goods": [{
+		"Goods_Id": "SCM001_G0001",
+		"Goods_Item": "Fruits",
+		"Para1": "Temperature",
+		"Para2": "Road"
+	}, {
+		"Goods_Id": "SCM001_G0002",
+		"Goods_Item": "Pharma API",
+		"Para1": "Temperature",
+		"Para2": "Road"
+	}]
+}, {
+	"_id": {
+		"$oid": "5c9b761af76c1c087ae51b8d"
+	},
+	"Customer_Id": "0003",
+	"Name1": "Pfizer",
+	"Name2": "William Pfizer",
+	"Type": "Static",
+	"External_Number": "Ex2134",
+	"Business_Partner_Id": ["0001", "0002"],
+	"Device_Id": ["1711210206", "046046044235", "046046044237", "046046044238", "046046044239"],
+	"DUNS": "",
+	"G10": "",
+	"Departments": ["Export", "Import", "Transportation"],
+	"Addresses": [{
+		"Type": "Primary",
+		"Address1": "1 Yukon Court",
+		"Address2": "",
+		"Address3": "",
+		"City": "Newark",
+		"State": "NJ",
+		"Country": "US",
+		"Zip": "07103",
+		"Longitude": "10003i333",
+		"Latitude": "10003i334"
+	}, {
+		"Type": "Secondary",
+		"Address1": "Building Three",
+		"Address2": "",
+		"Address3": "",
+		"City": "Newark",
+		"State": "NJ",
+		"Country": "US",
+		"Zip": "07114",
+		"Longitude": "10003i333",
+		"Latitude": "10003i334"
+	}],
+	"Contact": [{
+		"Type": "Primary",
+		"Contact_Name": "David",
+		"Phone": [{
+			"Type": "Office",
+			"Number": "001 9154320143"
+		}, {
+			"Type": "Cell",
+			"Number": "001 2365845785"
+		}],
+		"Email_Id": "david@gmail.com"
+	}, {
+		"Type": "Secondary",
+		"Contact_Name": "Lusie",
+		"Phone": [{
+			"Type": "Office",
+			"Number": "001 452236654"
+		}, {
+			"Type": "Cell",
+			"Number": "001 452252235"
+		}],
+		"Email_Id": "lusie@exports.com"
+	}],
+	"Route": [{
+		"Route_Id": "20001",
+		"From": "Philadelphia",
+		"To": "Philadelphia",
+		"Mode_Of_Transport": "Road"
+	}, {
+		"Route_Id": "20002",
+		"From": "San Jose",
+		"To": "New York",
+		"Mode_Of_Transport": "Flight"
+	}, {
+		"Route_Id": "20003",
+		"From": "Geneva",
+		"To": "New York",
+		"Mode_Of_Transport": "Flight"
+	}],
+	"Goods": [{
+		"Goods_Id": "SCM001_G0001",
+		"Goods_Item": "Fruits",
+		"Para1": "Temperature",
+		"Para2": "Road"
+	}, {
+		"Goods_Id": "SCM001_G0002",
+		"Goods_Item": "Pharma API",
+		"Para1": "Temperature",
+		"Para2": "Road"
+	}, {
+		"Goods_Id": "SCM001_G0003",
+		"Goods_Item": "Tomato",
+		"Para1": "Temperature",
+		"Para2": "Road"
+	}]
+}, {
+	"_id": {
+		"$oid": "5c9b7f18f76c1c087ae51eb7"
+	},
+	"Customer_Id": "0004",
+	"Name1": "Hexaware technologies",
+	"Name2": "Hexaware",
+	"Type": "Static",
+	"External_Number": "Ex4549",
+	"Business_Partner_Id": ["0001", "0002"],
+	"Device_Id": ["1711210206", "046046044235", "046046044237", "046046044238", "046046044239"],
+	"DUNS": "",
+	"G10": "",
+	"Departments": ["Export", "Import", "Transportation"],
+	"Addresses": [{
+		"Type": "Primary",
+		"Address1": "82 Main Street",
+		"Address2": "",
+		"Address3": "",
+		"City": "Hornell",
+		"State": "NY",
+		"Country": "US",
+		"Zip": "",
+		"Longitude": "10003i333",
+		"Latitude": "10003i334"
+	}, {
+		"Type": "Secondary",
+		"Address1": "",
+		"Address2": "",
+		"Address3": "",
+		"City": "chennai",
+		"State": "TN",
+		"Country": "IND",
+		"Zip": "",
+		"Longitude": "10003i333",
+		"Latitude": "10003i334"
+	}],
+	"Contact": [{
+		"Type": "Primary",
+		"Contact_Name": "Richard",
+		"Phone": [{
+			"Type": "Office",
+			"Number": "040 695845455"
+		}, {
+			"Type": "Cell",
+			"Number": "040 3669522141"
+		}],
+		"Email_Id": "richard@gmail.com"
+	}, {
+		"Type": "Secondary",
+		"Contact_Name": "ASAR",
+		"Phone": [{
+			"Type": "Office",
+			"Number": "001 408388933"
+		}, {
+			"Type": "Cell",
+			"Number": "001 408388933"
+		}],
+		"Email_Id": "Asar@hexaware.com"
+	}],
+	"Route": [{
+		"Route_Id": "20001",
+		"From": "Chennai",
+		"To": "Hydrebad",
+		"Mode_Of_Transport": "Road"
+	}, {
+		"Route_Id": "20002",
+		"From": "San Jose",
+		"To": "New York",
+		"Mode_Of_Transport": "Flight"
+	}],
+	"Goods": [{
+		"Goods_Id": "SCM001_G0001",
+		"Goods_Item": "Fruits",
+		"Para1": "Temperature",
+		"Para2": "Road"
+	}, {
+		"Goods_Id": "SCM001_G0002",
+		"Goods_Item": "Pharma API",
+		"Para1": "Temperature",
+		"Para2": "Road"
+	}]
+}]

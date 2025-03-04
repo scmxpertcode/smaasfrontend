@@ -1,0 +1,146 @@
+[{
+	"_id": {
+		"$oid": "5c9cb1620f883c261007eefb"
+	},
+	"Customer_Id": "0001",
+	"Shipment_Id": "T00000001",
+	"Route_Id": "1",
+	"Route_Desc": "",
+	"Goods_Id": "SCM001_G0001",
+	"Goods_Desc": "Fruits",
+	"Description": "",
+	"Estimated_Delivery": {
+		"Date": "",
+		"TimeZone": "",
+		"Duration": "3",
+		"uom": "days"
+	},
+	"Created_Date": {
+		"Date": "01/03/2019",
+		"TimeZone": ""
+	},
+	"Delivered_Date": {
+		"Date": "01/04/2019",
+		"TimeZone": ""
+	},
+	"Delivered_Status": "Completed",
+	"Comments": ["Created shipment, handle with care", "Shipment had an issue", "Shipment in progress"],
+	"Para1": "",
+	"Para2": ""
+}, {
+	"_id": {
+		"$oid": "5c9cb1620f883c261007eefd"
+	},
+	"Customer_Id": "0002",
+	"Shipment_Id": "T00000003",
+	"Route_Id": "1",
+	"Route_Desc": "",
+	"Goods_Id": "SCM001_G0003",
+	"Goods_Desc": "Tomato",
+	"Description": "",
+	"Estimated_Delivery": {
+		"Date": "",
+		"TimeZone": "",
+		"Duration": "4",
+		"uom": "days"
+	},
+	"Created_Date": {
+		"Date": "01/02/2019",
+		"TimeZone": ""
+	},
+	"Delivered_Date": {
+		"Date": "30/03/2019",
+		"TimeZone": ""
+	},
+	"Delivered_Status": "In Progress",
+	"Comments": ["Created shipment, handle with care", "Shipment had an issue", "Shipment in progress"],
+	"Para1": "",
+	"Para2": ""
+}, {
+	"_id": {
+		"$oid": "5c9cb1620f883c261007eeff"
+	},
+	"Customer_Id": "0003",
+	"Shipment_Id": "T00000002",
+	"Route_Id": "1",
+	"Route_Desc": "",
+	"Goods_Id": "SCM001_G0002",
+	"Goods_Desc": "Pharma API",
+	"Description": "",
+	"Estimated_Delivery": {
+		"Date": "",
+		"TimeZone": "",
+		"Duration": "3",
+		"uom": "days"
+	},
+	"Created_Date": {
+		"Date": "10/02/2019",
+		"TimeZone": ""
+	},
+	"Delivered_Date": {
+		"Date": "28/03/2019",
+		"TimeZone": ""
+	},
+	"Delivered_Status": "Completed",
+	"Comments": ["Created shipment, handle with care", "Shipment had an issue", "Shipment in progress"],
+	"Para1": "",
+	"Para2": ""
+}, {
+	"_id": {
+		"$oid": "5c9cb1620f883c261007ef01"
+	},
+	"Customer_Id": "0002",
+	"Shipment_Id": "T00000004",
+	"Route_Id": "1",
+	"Route_Desc": "",
+	"Goods_Id": "SCM001_G0001",
+	"Goods_Desc": "Fruits",
+	"Description": "",
+	"Estimated_Delivery": {
+		"Date": "",
+		"TimeZone": "",
+		"Duration": "3",
+		"uom": "days"
+	},
+	"Created_Date": {
+		"Date": "15/01/2019",
+		"TimeZone": ""
+	},
+	"Delivered_Date": {
+		"Date": "29/03/2019",
+		"TimeZone": ""
+	},
+	"Delivered_Status": "In Progress",
+	"Comments": ["Created shipment, handle with care", "Shipment had an issue", "Shipment in progress"],
+	"Para1": "",
+	"Para2": ""
+}, {
+	"_id": {
+		"$oid": "5ca35bb3edbb6b3360e897c4"
+	},
+	"Customer_Id": "0001",
+	"Shipment_Id": "T00000005",
+	"Route_Id": "1",
+	"Route_Desc": "",
+	"Goods_Id": "SCM001_G0001",
+	"Goods_Desc": "Fruits",
+	"Description": "",
+	"Estimated_Delivery": {
+		"Date": "",
+		"TimeZone": "",
+		"Duration": "3",
+		"uom": "days"
+	},
+	"Created_Date": {
+		"Date": "01/02/2019",
+		"TimeZone": ""
+	},
+	"Delivered_Date": {
+		"Date": "02/04/2019",
+		"TimeZone": ""
+	},
+	"Delivered_Status": "In Progress",
+	"Comments": ["Created shipment, handle with care", "Shipment had an issue", "Shipment in progress"],
+	"Para1": "",
+	"Para2": ""
+}]

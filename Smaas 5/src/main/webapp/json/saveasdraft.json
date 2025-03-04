@@ -1,0 +1,21 @@
+[{
+	"deviceId": "046046044234",
+	"customerId": "SCM0002",
+	"goodsType": "Fruits",
+	"internal_Shipment_Id": "1",
+	"typeOfReference": "Place Order",
+	"shipment_Number": "T00000008",
+	"estimatedDeliveryDate": "2019-05-05T13:21:55.000Z",
+	"parnterFrom": "BP0002",
+	"routeFrom": "Haifa",
+	"eventName": "Intial Inspection",
+	"routeId": "20003",
+	"routeTo": "Moldova",
+	"dateAndTime": "2019-05-02T13:21:55.000Z",
+	"partnerTo": "BP0003",
+	"comments": [
+		"Test 123",
+		"Testing"
+	],
+	"goodsId": "SCM0001_G0001"
+}]

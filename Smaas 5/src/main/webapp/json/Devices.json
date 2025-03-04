@@ -1,0 +1,31 @@
+[{
+	"_id": {
+		"$oid": "5c9b26bcb5302d58906556c0"
+	},
+	"Device_Id": "1711210206",
+	"IMEI_Number": "354869053727954",
+	"BP_Id": "0001",
+	"Scan_Code": " ZZ03003",
+	"OEM": " ZZ03003",
+	"Device_Type": "Picolo",
+	"Carrier": "HTTP",
+	"Protocol": "",
+	"Active": "True",
+	"para1": "",
+	"para2": ""
+}, {
+	"_id": {
+		"$oid": "5c9b26bcb5302d58906556c1"
+	},
+	"Device_Id": "1711210228",
+	"IMEI_Number": "020930303",
+	"BP_Id": "0001",
+	"Scan_Code": " ZZ03003",
+	"OEM": " ZZ03003",
+	"Device_Type": "Picolo",
+	"Carrier": "HTTP",
+	"Protocol": "",
+	"Active": "True",
+	"para1": "",
+	"para2": ""
+}]

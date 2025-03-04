@@ -1,0 +1,616 @@
+
+<td style='display:none;'>"+value.goods_Desc+"</td><td style='display:none;'>"+value.route_From+"</td><td style='display:none;'>"+value.route_To+"</td>
+
+<!-- 	<div class="w-100 p-1 m-1 live_shipments_list" onclick="javascript:javascript:showdetailslist();" style="border:1px solid black;border-radius:3px;height:60px;cursor:pointer;" id="one"  onmouseenter="drawLine()" >
+		<div class="col-md-4 float-left">
+			<h6 class="m-0">0-15 TCTest</h6>
+			<p style="font-size:10px;margin:0px;font-weight:600;">From :- Merck West Point,PA</p>
+			<p style="font-size:10px;margin:0px;font-weight:600;">To :- MD, Logistics,IN</p>
+		</div>
+		<div class="col-md-7 float-left">
+			<div class="col-md-6 float-left p-0">
+				<p style="font-size:10px;margin:0px;font-weight:600;margin-top:0px;text-align:left;margin-left:10px;margin-right:30px;">Dec 5,2018 1:01AM</p>
+			</div>
+			
+			<div class="col-md-6 float-left p-0">
+				<p style="font-size:10px;margin:0px;font-weight:600;margin-top:0px;text-align: center;">Dec 25,2018 15:01PM</p>
+			</div>
+			<div class="clear:both;"></div>
+		
+			
+		</div>
+		<div class="col-md-1 float-left text-center p-0">
+			<img src="./images/notification.png" style="width:16px;height:16px;margin-top:20px;float:left;">
+		</div>
+		<div style="clear:both"></div>
+		<div class="text-center m-auto" style="width:60%;height: 10px;position: relative;bottom: 25px;">
+		<div class="p-1" style="width: 12px;border-radius: 15px;background: #268fff;height: 12px; position: relative;left: 100px;bottom: 5.5px;z-index: 1;"></div>
+			 <div class="progress margin-auto" style="margin-left: 100px;margin-right: 10px;position: relative;bottom: 15px;height: 0.5rem;">
+    		<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:40%;background-size: 0.5rem 0.8rem;background-color:#43b54380;background-image: linear-gradient(45deg,rgba(255, 255, 255, 0.82) 25%,#000000c7 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);"></div>
+  		</div>
+  		<div class="p-1" style="width: 12px;border-radius: 15px;background: #268fff;height: 12px;position: relative;left: 310px;bottom: 25.5px;z-index: 0;"></div>
+  		<div style="font-size: 12px;font-weight: 600;height: 0px;position: relative;bottom: 25px;width: 100%;text-align: center;text-indent: 70px;">Status: Progress</div>
+		</div>
+		
+		
+		</div>
+			<div class="w-100 p-1 m-1 live_shipments_list" onclick="javascript:showdetailslist();" style="border:1px solid black;border-radius:3px;height:60px;">
+		<div class="col-md-4 float-left">
+			<h6 class="m-0">0-15 TCTest</h6>
+			<p style="font-size:10px;margin:0px;font-weight:600;">From :- Merck West Point,PA</p>
+			<p style="font-size:10px;margin:0px;font-weight:600;">To :- MD, Logistics,IN</p>
+		</div>
+		<div class="col-md-7 float-left">
+			<div class="col-md-6 float-left p-0">
+				<p style="font-size:10px;margin:0px;font-weight:600;margin-top:0px;text-align:left;margin-left:10px;margin-right:30px;">Nov 5,2018 3:01AM</p>
+			</div>
+			
+			<div class="col-md-6 float-left p-0">
+				<p style="font-size:10px;margin:0px;font-weight:600;margin-top:0px;text-align: center;">Nov 25,2018 21:01PM</p>
+			</div>
+			<div class="clear:both;"></div>
+		
+			
+		</div>
+		<div class="col-md-1 float-left text-center p-0">
+			<img src="./images/alarm.png" class="alaram" style="width:16px;height:16px;margin-top:20px;float:left;">
+		</div>
+		<div style="clear:both"></div>
+		<div class="text-center m-auto" style="width:60%;height: 10px;position: relative;bottom: 25px;">
+		<div class="p-1" style="width: 12px;border-radius: 15px;background: #268fff;height: 12px; position: relative;left: 100px;bottom: 5.5px;z-index: 1;"></div>
+			 <div class="progress margin-auto" style="margin-left: 100px;margin-right: 10px;position: relative;bottom: 15px;height: 0.5rem;">
+    		<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:70%;background-size: 0.5rem 0.8rem;background-color:#43b54380;background-image: linear-gradient(45deg,rgba(255, 255, 255, 0.82) 25%,#000000c7 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);"></div>
+  		</div>
+  		<div class="p-1" style="width: 12px;border-radius: 15px;background: #268fff;height: 12px;position: relative;left: 310px;bottom: 25.5px;z-index: 0;"></div>
+  		<div style="font-size: 12px;font-weight: 600;height: 0px;position: relative;bottom: 25px;width: 100%;text-align: center;text-indent: 70px;">Status: Progress</div>
+		</div>
+		 
+	</div>
+		<div class="w-100 p-1 m-1 live_shipments_list" onclick="javascript:showdatadialogbox('val1');" style="border:1px solid black;border-radius:3px;height:60px;">
+		<div class="col-md-4 float-left">
+			<h6 class="m-0">0-15 TCTest</h6>
+			<p style="font-size:10px;margin:0px;font-weight:600;">From :- Merck West Point,PA</p>
+			<p style="font-size:10px;margin:0px;font-weight:600;">To :- MD, Logistics,IN</p>
+		</div>
+		<div class="col-md-7 float-left">
+			<div class="col-md-6 float-left p-0">
+				<p style="font-size:10px;margin:0px;font-weight:600;margin-top:0px;text-align:left;margin-right:30px;">Nov 5,2018 1:01AM</p>
+			</div>
+			
+			<div class="col-md-6 float-left p-0">
+				<p style="font-size:10px;margin:0px;font-weight:600;margin-top:0px;text-align: center;">Nov 15,2018 12:01PM</p>
+			</div>
+			<div class="clear:both;"></div>
+		
+			
+		</div>
+		<div class="col-md-1 float-left text-center p-0">
+			<img src="./images/notification.png" style="width:16px;height:16px;margin-top:20px;float:left;">
+		</div>
+		<div style="clear:both"></div>
+		<div class="text-center m-auto" style="width:60%;height: 10px;position: relative;bottom: 25px;">
+		<div class="p-1" style="width: 12px;border-radius: 15px;background: #268fff;height: 12px; position: relative;left: 100px;bottom: 5.5px;z-index: 1;"></div>
+			 <div class="progress margin-auto" style="margin-left: 100px;margin-right: 10px;position: relative;bottom: 15px;height: 0.5rem;">
+    		<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:50%;background-size: 0.5rem 0.8rem;background-color:#43b54380;background-image: linear-gradient(45deg,rgba(255, 255, 255, 0.82) 25%,#000000c7 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);"></div>
+  		</div>
+  		<div class="p-1" style="width: 12px;border-radius: 15px;background: #268fff;height: 12px;position: relative;left: 310px;bottom: 25.5px;z-index: 0;"></div>
+  		<div style="font-size: 12px;font-weight: 600;height: 0px;position: relative;bottom: 25px;width: 100%;text-align: center;text-indent: 70px;">Status: Progress</div>
+		</div>
+		
+		
+		</div>
+				<div class="w-100 p-1 m-1 live_shipments_list" onclick="javascript:showdatadialogbox('val1');" style="border:1px solid black;border-radius:3px;height:60px;">
+		<div class="col-md-4 float-left">
+			<h6 class="m-0">0-15 TCTest</h6>
+			<p style="font-size:10px;margin:0px;font-weight:600;">From :- Merck West Point,PA</p>
+			<p style="font-size:10px;margin:0px;font-weight:600;">To :- MD, Logistics,IN</p>
+		</div>
+		<div class="col-md-7 float-left">
+			<div class="col-md-6 float-left p-0">
+				<p style="font-size:10px;margin:0px;font-weight:600;margin-top:0px;text-align:left;margin-right:30px;">Nov 3,2018 1:01AM</p>
+			</div>
+			
+			<div class="col-md-6 float-left p-0">
+				<p style="font-size:10px;margin:0px;font-weight:600;margin-top:0px;text-align: center;">Nov 19,2018 1:01PM</p>
+			</div>
+			<div class="clear:both;"></div>
+		
+			
+		</div>
+		<div class="col-md-1 float-left text-center p-0">
+			<img src="./images/notification.png" style="width:16px;height:16px;margin-top:20px;float:left;">
+		</div>
+		<div style="clear:both"></div>
+		<div class="text-center m-auto" style="width:60%;height: 10px;position: relative;bottom: 25px;">
+		<div class="p-1" style="width: 12px;border-radius: 15px;background: #268fff;height: 12px; position: relative;left: 100px;bottom: 5.5px;z-index: 1;"></div>
+			 <div class="progress margin-auto" style="margin-left: 100px;margin-right: 10px;position: relative;bottom: 15px;height: 0.5rem;">
+    		<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:90%;background-size: 0.5rem 0.8rem;background-color:#43b54380;background-image: linear-gradient(45deg,rgba(255, 255, 255, 0.82) 25%,#000000c7 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);"></div>
+  		</div>
+  		<div class="p-1" style="width: 12px;border-radius: 15px;background: #268fff;height: 12px;position: relative;left: 310px;bottom: 25.5px;z-index: 0;"></div>
+  		<div style="font-size: 12px;font-weight: 600;height: 0px;position: relative;bottom: 25px;width: 100%;text-align: center;text-indent: 70px;">Status: Progress</div>
+		</div>
+		
+		
+		</div>
+		<div class="w-100 p-1 m-1 live_shipments_list" onclick="javascript:showdatadialogbox('val1');" style="border:1px solid black;border-radius:3px;height:60px;">
+		<div class="col-md-4 float-left">
+			<h6 class="m-0">0-15 TCTest</h6>
+			<p style="font-size:10px;margin:0px;font-weight:600;">From :- Merck West Point,PA</p>
+			<p style="font-size:10px;margin:0px;font-weight:600;">To :- MD, Logistics,IN</p>
+		</div>
+		<div class="col-md-7 float-left">
+			<div class="col-md-6 float-left p-0">
+				<p style="font-size:10px;margin:0px;font-weight:600;margin-top:0px;text-align:left;margin-right:30px;">Sep 5,2018 1:01AM</p>
+			</div>
+			
+			<div class="col-md-6 float-left p-0">
+				<p style="font-size:10px;margin:0px;font-weight:600;margin-top:0px;text-align: center;">Oct 3,2018 1:01PM</p>
+			</div>
+			<div class="clear:both;"></div>
+		
+			
+		</div>
+		<div class="col-md-1 float-left text-center p-0">
+			<img src="./images/notification.png" style="width:16px;height:16px;margin-top:20px;float:left;">
+		</div>
+		<div style="clear:both"></div>
+		<div class="text-center m-auto" style="width:60%;height: 10px;position: relative;bottom: 25px;">
+		<div class="p-1" style="width: 12px;border-radius: 15px;background: #268fff;height: 12px; position: relative;left: 100px;bottom: 5.5px;z-index: 1;"></div>
+			 <div class="progress margin-auto" style="margin-left: 100px;margin-right: 10px;position: relative;bottom: 15px;height: 0.5rem;">
+    		<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:30%;background-size: 0.5rem 0.8rem;background-color:#43b54380;background-image: linear-gradient(45deg,rgba(255, 255, 255, 0.82) 25%,#000000c7 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);"></div>
+  		</div>
+  		<div class="p-1" style="width: 12px;border-radius: 15px;background: #268fff;height: 12px;position: relative;left: 310px;bottom: 25.5px;z-index: 0;"></div>
+  		<div style="font-size: 12px;font-weight: 600;height: 0px;position: relative;bottom: 25px;width: 100%;text-align: center;text-indent: 70px;">Status: Progress</div>
+		</div>
+		
+		
+		</div>
+		<div class="show_remaing">
+			<div class="w-100 p-1 m-1 live_shipments_list" onclick="javascript:showdatadialogbox('val1');" style="border:1px solid black;border-radius:3px;height:60px;">
+		<div class="col-md-4 float-left">
+			<h6 class="m-0">0-15 TCTest</h6>
+			<p style="font-size:10px;margin:0px;font-weight:600;">From :- Merck West Point,PA</p>
+			<p style="font-size:10px;margin:0px;font-weight:600;">To :- MD, Logistics,IN</p>
+		</div>
+		<div class="col-md-7 float-left">
+			<div class="col-md-6 float-left p-0">
+				<p style="font-size:10px;margin:0px;font-weight:600;margin-top:0px;text-align:left;margin-right:30px;">Nov 3,2018 1:01AM</p>
+			</div>
+			
+			<div class="col-md-6 float-left p-0">
+				<p style="font-size:10px;margin:0px;font-weight:600;margin-top:0px;text-align: center;">Nov 19,2018 1:01PM</p>
+			</div>
+			<div class="clear:both;"></div>
+		
+			
+		</div>
+		<div class="col-md-1 float-left text-center p-0">
+			<img src="./images/notification.png" style="width:16px;height:16px;margin-top:20px;float:left;">
+		</div>
+		<div style="clear:both"></div>
+		<div class="text-center m-auto" style="width:60%;height: 10px;position: relative;bottom: 25px;">
+		<div class="p-1" style="width: 12px;border-radius: 15px;background: #268fff;height: 12px; position: relative;left: 100px;bottom: 5.5px;z-index: 1;"></div>
+			 <div class="progress margin-auto" style="margin-left: 100px;margin-right: 10px;position: relative;bottom: 15px;height: 0.5rem;">
+    		<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:90%;background-size: 0.5rem 0.8rem;background-color:#43b54380;background-image: linear-gradient(45deg,rgba(255, 255, 255, 0.82) 25%,#000000c7 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);"></div>
+  		</div>
+  		<div class="p-1" style="width: 12px;border-radius: 15px;background: #268fff;height: 12px;position: relative;left: 310px;bottom: 25.5px;z-index: 0;"></div>
+  		<div style="font-size: 12px;font-weight: 600;height: 0px;position: relative;bottom: 25px;width: 100%;text-align: center;text-indent: 70px;">Status: Progress</div>
+		</div>
+		
+		
+		</div>
+	
+		<div class="w-100 p-1 m-1 live_shipments_list" onclick="javascript:showdatadialogbox('val1');" style="border:1px solid black;border-radius:3px;height:60px;">
+		<div class="col-md-4 float-left">
+			<h6 class="m-0">0-15 TCTest</h6>
+			<p style="font-size:10px;margin:0px;font-weight:600;">From :- Merck West Point,PA</p>
+			<p style="font-size:10px;margin:0px;font-weight:600;">To :- MD, Logistics,IN</p>
+		</div>
+		<div class="col-md-7 float-left">
+			<div class="col-md-6 float-left p-0">
+				<p style="font-size:10px;margin:0px;font-weight:600;margin-top:0px;text-align:left;margin-right:30px;">Nov 3,2018 1:01AM</p>
+			</div>
+			
+			<div class="col-md-6 float-left p-0">
+				<p style="font-size:10px;margin:0px;font-weight:600;margin-top:0px;text-align: center;">Nov 19,2018 1:01PM</p>
+			</div>
+			<div class="clear:both;"></div>
+		
+			
+		</div>
+		<div class="col-md-1 float-left text-center p-0">
+			<img src="./images/notification.png" style="width:16px;height:16px;margin-top:20px;float:left;">
+		</div>
+		<div style="clear:both"></div>
+		<div class="text-center m-auto" style="width:60%;height: 10px;position: relative;bottom: 25px;">
+		<div class="p-1" style="width: 12px;border-radius: 15px;background: #268fff;height: 12px; position: relative;left: 100px;bottom: 5.5px;z-index: 1;"></div>
+			 <div class="progress margin-auto" style="margin-left: 100px;margin-right: 10px;position: relative;bottom: 15px;height: 0.5rem;">
+    		<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:90%;background-size: 0.5rem 0.8rem;background-color:#43b54380;background-image: linear-gradient(45deg,rgba(255, 255, 255, 0.82) 25%,#000000c7 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);"></div>
+  		</div>
+  		<div class="p-1" style="width: 12px;border-radius: 15px;background: #268fff;height: 12px;position: relative;left: 310px;bottom: 25.5px;z-index: 0;"></div>
+  		<div style="font-size: 12px;font-weight: 600;height: 0px;position: relative;bottom: 25px;width: 100%;text-align: center;text-indent: 70px;">Status: Progress</div>
+		</div>
+		
+		
+		</div>
+		
+		</div> -->
+		
+		<!--     <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown"><img src="./images/user1.png" style="width:25px;height:25px;"/> BP0001</button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Profile View</a>
+      <a class="dropdown-item" href="#">Settings</a>
+      <a class="dropdown-item" href="#">Help</a>
+      <a class="dropdown-item" href="#">Logout</a>
+    </div> -->
+    
+    
+    
+    
+    
+    <!-- <table class="table table-striped table-bordered" id="draftTable" style="overflow-x:auto;font-size:11px;">
+			<thead  class="thead-dark">
+				<tr>
+					<th>Delivery No.</th>
+					<th>Device Id</th>
+					<th>Event Name</th>
+					<th>Report Type</th>
+					<th>Internal Temp.</th>
+					<th>Battery</th>
+					<th>Comments</th>
+					<th>Mode Of Transport</th>
+				</tr>
+			</thead>
+			<tbody> -->
+<!-- 				<tr>
+					<td>1</td>
+					<td>Template Name</td>
+					<td>Ship from</td>
+					<td>Ship to</td>
+					<td>Goods Type</td>
+					<td>Inco Terms</td>
+					<td><button class="btn btn-info m-1"><span class="glyphicon glyphicon-check"></span> Select Draft</button> <button class="btn btn-warning m-1">Delete</button></td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Template Name</td>
+					<td>Ship from</td>
+					<td>Ship to</td>
+					<td>Goods Type</td>
+					<td>Inco Terms</td>
+					<td><button class="btn btn-info m-1">Select Draft</button> <button class="btn btn-warning m-1">Delete</button></td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Template Name</td>
+					<td>Ship from</td>
+					<td>Ship to</td>
+					<td>Goods Type</td>
+					<td>Inco Terms</td>
+					<td><button class="btn btn-info m-1">Select Draft</button> <button class="btn btn-warning m-1">Delete</button></td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Template Name</td>
+					<td>Ship from</td>
+					<td>Ship to</td>
+					<td>Goods Type</td>
+					<td>Inco Terms</td>
+					<td><button class="btn btn-info m-1">Select Draft</button> <button class="btn btn-warning m-1">Delete</button></td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Template Name</td>
+					<td>Ship from</td>
+					<td>Ship to</td>
+					<td>Goods Type</td>
+					<td>Inco Terms</td>
+					<td><button class="btn btn-info m-1">Select Draft</button> <button class="btn btn-warning m-1">Delete</button></td>
+				</tr>
+								<tr>
+					<td>3</td>
+					<td>Template Name</td>
+					<td>Ship from</td>
+					<td>Ship to</td>
+					<td>Goods Type</td>
+					<td>Inco Terms</td>
+					<td><button class="btn btn-info m-1">Select Draft</button> <button class="btn btn-warning m-1">Delete</button></td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Template Name</td>
+					<td>Ship from</td>
+					<td>Ship to</td>
+					<td>Goods Type</td>
+					<td>Inco Terms</td>
+					<td><button class="btn btn-info m-1">Select Draft</button> <button class="btn btn-warning m-1">Delete</button></td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Template Name</td>
+					<td>Ship from</td>
+					<td>Ship to</td>
+					<td>Goods Type</td>
+					<td>Inco Terms</td>
+					<td><button class="btn btn-info m-1">Select Draft</button> <button class="btn btn-warning m-1">Delete</button></td>
+				</tr>
+								<tr>
+					<td>3</td>
+					<td>Template Name</td>
+					<td>Ship from</td>
+					<td>Ship to</td>
+					<td>Goods Type</td>
+					<td>Inco Terms</td>
+					<td><button class="btn btn-info m-1">Select Draft</button> <button class="btn btn-warning m-1">Delete</button></td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Template Name</td>
+					<td>Ship from</td>
+					<td>Ship to</td>
+					<td>Goods Type</td>
+					<td>Inco Terms</td>
+					<td><button class="btn btn-info m-1">Select Draft</button> <button class="btn btn-warning m-1">Delete</button></td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Template Name</td>
+					<td>Ship from</td>
+					<td>Ship to</td>
+					<td>Goods Type</td>
+					<td>Inco Terms</td>
+					<td><button class="btn btn-info m-1">Select Draft</button> <button class="btn btn-warning m-1">Delete</button></td>
+				</tr>
+								<tr>
+					<td>3</td>
+					<td>Template Name</td>
+					<td>Ship from</td>
+					<td>Ship to</td>
+					<td>Goods Type</td>
+					<td>Inco Terms</td>
+					<td><button class="btn btn-info m-1">Select Draft</button> <button class="btn btn-warning m-1">Delete</button></td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Template Name</td>
+					<td>Ship from</td>
+					<td>Ship to</td>
+					<td>Goods Type</td>
+					<td>Inco Terms</td>
+					<td><button class="btn btn-info m-1">Select Draft</button> <button class="btn btn-warning m-1">Delete</button></td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Template Name</td>
+					<td>Ship from</td>
+					<td>Ship to</td>
+					<td>Goods Type</td>
+					<td>Inco Terms</td>
+					<td><button class="btn btn-info m-1">Select Draft</button> <button class="btn btn-warning m-1">Delete</button></td>
+				</tr>
+								<tr>
+					<td>3</td>
+					<td>Template Name</td>
+					<td>Ship from</td>
+					<td>Ship to</td>
+					<td>Goods Type</td>
+					<td>Inco Terms</td>
+					<td><button class="btn btn-info m-1">Select Draft</button> <button class="btn btn-warning m-1">Delete</button></td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Template Name</td>
+					<td>Ship from</td>
+					<td>Ship to</td>
+					<td>Goods Type</td>
+					<td>Inco Terms</td>
+					<td><button class="btn btn-info m-1">Select Draft</button> <button class="btn btn-warning m-1">Delete</button></td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Template Name</td>
+					<td>Ship from</td>
+					<td>Ship to</td>
+					<td>Goods Type</td>
+					<td>Inco Terms</td>
+					<td><button class="btn btn-info m-1">Select Draft</button> <button class="btn btn-warning m-1">Delete</button></td>
+				</tr>
+								<tr>
+					<td>3</td>
+					<td>Template Name</td>
+					<td>Ship from</td>
+					<td>Ship to</td>
+					<td>Goods Type</td>
+					<td>Inco Terms</td>
+					<td><button class="btn btn-info m-1">Select Draft</button> <button class="btn btn-warning m-1">Delete</button></td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Template Name</td>
+					<td>Ship from</td>
+					<td>Ship to</td>
+					<td>Goods Type</td>
+					<td>Inco Terms</td>
+					<td><button class="btn btn-info m-1">Select Draft</button> <button class="btn btn-warning m-1">Delete</button></td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Template Name</td>
+					<td>Ship from</td>
+					<td>Ship to</td>
+					<td>Goods Type</td>
+					<td>Inco Terms</td>
+					<td><button class="btn btn-info m-1">Select Draft</button> <button class="btn btn-warning m-1">Delete</button></td>
+				</tr>
+								<tr>
+					<td>3</td>
+					<td>Template Name</td>
+					<td>Ship from</td>
+					<td>Ship to</td>
+					<td>Goods Type</td>
+					<td>Inco Terms</td>
+					<td><button class="btn btn-info m-1">Select Draft</button> <button class="btn btn-warning m-1">Delete</button></td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Template Name</td>
+					<td>Ship from</td>
+					<td>Ship to</td>
+					<td>Goods Type</td>
+					<td>Inco Terms</td>
+					<td><button class="btn btn-info m-1">Select Draft</button> <button class="btn btn-warning m-1">Delete</button></td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Template Name</td>
+					<td>Ship from</td>
+					<td>Ship to</td>
+					<td>Goods Type</td>
+					<td>Inco Terms</td>
+					<td><button class="btn btn-info m-1">Select Draft</button> <button class="btn btn-warning m-1">Delete</button></td>
+				</tr> -->
+				
+			<!-- </tbody>
+
+		</table> -->
+		
+		
+		
+		
+		<!-- <iframe width="1350" height="700" src="https://app.powerbi.com/view?r=eyJrIjoiNmFkM2ZlMWUtMTMxYS00ZWY2LWI3NTYtODgwZjgxOGUwZjc5IiwidCI6ImJlZmMxZjM4LWJkOTItNDI0Yy1hZjE5LTYwN2FmM2MxMDZhNiIsImMiOjJ9" frameborder="0" allowFullScreen="true"></iframe> -->
+		
+			<!-- <div id="showtabledata">
+	
+	</div> -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	            $.getJSON('json/Shipments.json', function(jd) {
+            	$.each(jd,function(key,val){
+            		////alert(val.Created_Date.Date);
+            	/* 	 $.each(val.Created_Date,function(keyss,dat){
+            			var created_date = dat;
+            			//alert(created_date);
+            		});  */
+            		/* var alerts = '';
+            		
+            		 if(alerts == "Active")
+            		 {	 	var alertss = "alarm.png";
+            			 	$(".imagenotif>img").addClass("alaram");
+            			 	//$(".imagenotif>img:last-child").addClass("alaram");
+
+            		 }else{
+            			 var alertss = "notification.png";
+            			 $(".imagenotif>img").removeClass("alaram");
+            		 } */
+            		 var status = val.Delivered_Status;
+
+            		if(status == "preparing"){var widthstatus = "10%;";}
+            		if(status == "started"){var widthstatus = "15%;";}
+            		if(status == "In Progress"){var widthstatus = "25%;";}
+	            	if(status == "stage2"){var widthstatus = "45%;";}
+            		if(status == "stage3"){var widthstatus = "60%;";}
+            		if(status == "stage4"){var widthstatus = "75%;";}
+            		if(status == "stage5"){var widthstatus = "90%;";}
+            		if(status == "Completed"){var widthstatus = "100%;";}
+
+         		
+            	});
+             });
+             
+             
+             
+             
+             
+             
+             
+                     	 
+        	 
+      /*   	 $('#submit').on("click",function(){ */
+        /* 		 var selval = $("#devices").val();
+        		 var fromval = $("#from").val();
+        		 var toval = $("#to").val();
+	
+        			if(fromval == '' && toval == '')
+        			 {
+        			 $('.two_list').show();
+        			 }else{
+        				 $('.two_list').hide();
+        				 $('.from_'+fromval).show();
+        				 $('.to_'+toval).show();
+        			 }
+        		 
+        		  if(selval != ''){
+        			 $('.two_list').hide();
+            		 $('.one_'+selval).show();	 
+        		 }  */
+        	/* 	 if(fromval == ''){
+        			 $('.two_list').show();
+        		 }else{
+
+        			 $('.two_list').css("display","none");
+            		 	 
+        		 }
+        		 if(toval == ''){
+        			 $('.two_list').show();
+        		 }else{
+        			 $('.two_list').hide();
+            		 $('.to_'+toval).show();	 
+        		 } */
+        	/*  }); */
+        	
+        	
+        	
+        	
+        	
+        	
+        	
+        	
+        	
+        	<img id="copyButtonId" src="./images/copy.png" onclick="javascript:copy();" alt="copy" style="cursor:pointer;width:20px;margin-right:2%;">
+        	
+        	<img src="./images/plus-filled.png" style="width:21px;margin-right:2%;float:right;margin-top: 3px;" onclick="javascript:dialogboxAddEvent();" class="AddButtonIcon">
+        	
+        	
+        	
+        	
+        	
+        	
+function result(hash){
+	$("#hash").val(hash);
+	  var encrpt_val = $("#hash").val();
+	  //console.log(encrpt_val);
+	 // loginToDashboard(encrpt_val);
+	}
+	function crypt(){
+		var salt;
+		
+		if($("#salt").val().length != 0){
+		salt = $("#salt").val();
+		}else{
+			try{
+	    	salt = gensalt($("#rounds").val());
+			}catch(err){
+	    	////alert(err);
+	    	return;
+			}
+			$("#salt").val(salt);
+		}
+	  try{
+	  	$("#progressbar").progressbar({ value: 0 });
+			hashpw(
+				$("#password").val(),
+				$("#salt").val(),
+				result);
+	  }catch(err){
+	    return;
+	  }
+	}
+        	

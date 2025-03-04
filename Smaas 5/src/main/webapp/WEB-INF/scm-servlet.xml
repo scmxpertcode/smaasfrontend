@@ -1,0 +1,16 @@
+<beans xmlns = "https://www.springframework.org/schema/beans"
+   xmlns:context = "https://www.springframework.org/schema/context"
+   xmlns:xsi = "https://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "https://www.springframework.org/schema/beans     
+   https://www.springframework.org/schema/beans/spring-beans.xsd
+   https://www.springframework.org/schema/context 
+   https://www.springframework.org/schema/context/spring-context.xsd">
+
+   <context:component-scan base-package = "com.scm.controller" />
+
+   <bean class = "org.springframework.web.servlet.view.InternalResourceViewResolver">
+      <property name = "prefix" value = "/WEB-INF/" />
+      <property name = "suffix" value = ".jsp" />
+   </bean>
+
+</beans>
